@@ -30,7 +30,7 @@ project/
 
     Clone this repository
 
-git clone https://github.com/yourusername/contact-form.git
+git clone https://github.com/ms2912003/Elevvo-Front-End-Internship_ContactFormTask.git
 
     Open index.html in your browser.
 
