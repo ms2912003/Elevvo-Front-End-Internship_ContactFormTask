@@ -34,9 +34,6 @@ git clone https://github.com/yourusername/contact-form.git
 
     Open index.html in your browser.
 
-📸 Preview
-
-
 🛠 Technologies Used
 
     HTML5 — Structure
