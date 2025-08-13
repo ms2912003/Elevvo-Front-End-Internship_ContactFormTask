@@ -1,0 +1,136 @@
+/* ===== General Page Styling ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(135deg, #ff9900, #2193b0);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ===== Heading ===== */
+#content h1 {
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    font-size: 2rem;
+    text-align: center;
+}
+#content p {
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* ===== Form Container ===== */
+form {
+    background: white;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+/* New media query to control form width on larger screens */
+@media (min-width: 768px) {
+    form {
+        max-width: 450px;
+    }
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+/* ===== Label Styling ===== */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* ===== Input Fields ===== */
+input[type="text"],
+input[type="email"] {
+    width: 95%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #2193b0;
+    box-shadow: 0 0 5px rgba(33, 147, 176, 0.3);
+    outline: none;
+}
+
+/* ===== Error & Success Messages ===== */
+.error-msg {
+    color: red;
+    font-size: 13px;
+    margin-top: 4px;
+    display: none;
+}
+
+.success-alert {
+    display: none;
+    text-align: center;
+    padding: 12px;
+    background: #4CAF50;
+    color: white;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* ===== Message Field Styling ===== */
+#message {
+    width: 95%;
+    min-height: 150px;
+    resize: none;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+#message:focus {
+    border-color: #2193b0;
+    box-shadow: 0 0 5px rgba(33, 147, 176, 0.3);
+    outline: none;
+}
+
+/* ===== Submit Button ===== */
+#button {
+    background: #2193b0;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#button:hover {
+    background: #176d80;
+}
+
+/* ===== Responsive Design ===== */
+ @media (max-width: 600px) {
+    .form-container {
+        margin: 15px;
+        padding: 15px;
+    }
+}
