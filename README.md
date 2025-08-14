@@ -2,7 +2,7 @@
 
 This project is a responsive contact form that includes:
 ✅ Client-side form validation using JavaScript
-✅ Success alert with auto-hide after 4 seconds
+✅ Success alert with auto-hide after 3 seconds
 ✅ Mobile-friendly responsive layout
 
 
@@ -11,7 +11,7 @@ This project is a responsive contact form that includes:
 project/
 │── index.html      # Main HTML structure
 │── style.css       # Styling for form and layout
-│── script.js       # Form validation and success alert logic
+│── form.js       # Form validation and success alert logic
 │── README.md       # Project documentation
 
 🚀 Features
@@ -30,12 +30,9 @@ project/
 
     Clone this repository
 
-git clone https://github.com/yourusername/contact-form.git
+git clone https://github.com/ms2912003/Elevvo-Front-End-Internship_ContactFormTask.git
 
     Open index.html in your browser.
-
-📸 Preview
-
 
 🛠 Technologies Used
 
